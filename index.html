@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Data Science SM Dashbord </title>
+    <link rel="shortcut icon" href="dashboard.png" type="image/x-icon">
+    <link rel="stylesheet" href="DASHBORD.css">
+    <link rel="stylesheet" href="Chairmen.css">
+</head>
+<body>
+
+<!----NAVBAR-->
+
+    <div class="mainnav">
+        <div class="rightnav">
+              <svg xmlns="http://www.w3.org/2000/svg" width="90" height="95" viewBox="0 0 23 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-graduation-cap mr-2 h-8 w-9 text-datasci-orange"
+                data-lov-id="src/pages/Index.tsx:27:10" data-lov-name="GraduationCap"
+                data-component-path="src/pages/Index.tsx" data-component-line="27" data-component-file="Index.tsx"
+                data-component-name="GraduationCap"
+                data-component-content="%7B%22className%22%3A%22mr-2%20h-8%20w-8%20text-datasci-orange%22%7D">
+                <path
+                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                </path>
+                <path d="M22 10v6"></path>
+                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+            </svg>
+            <h1>Data Science Students Management Dashbord</h1>
+        </div>
+        <div class="leftnav">
+            <div class="btnposition">
+              <a href="index.html" class="btn1">Dashboard</a>
+                <a href="Chairmen.html" class="btn">Chairman</a>
+                <a href="DaraScience.html" class="btn">Data Science</a>
+                <a href="Batches.html" class="btn">Batches</a>
+                <a href="Notices.html" class="btn">Notices</a>
+                <!-- Main Button -->
+                <div class="btn" onclick="toggleSubButtons()">About</div>
+                 <!-- Hidden Sub Buttons -->
+                <div id="about-sub-buttons" class="hidden sub-buttons">
+                   <a href="Faculty.html" class="btn">Faculty</a>
+                    <a href="lab.html" class="btn">Lab</a>
+                     <a href="" class="btn" >Courses</a>
+
+                    
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    
+
+ <!----NAVBAR END-->
+ <!----MAin BODY-->
+    <div class="mainbody">
+
+
+
+
+
+
+
+
+
+    </div>
+     <!----MAIN BODY END-->
+     <!----SCRIPT-->
+    <script>
+        function toggleSubButtons() {
+  const subButtons = document.getElementById("about-sub-buttons");
+  subButtons.classList.toggle("hidden");
+ }
+  </script>
+  
+
+    <!----SCRIPT END-->
+</body>
+</html>

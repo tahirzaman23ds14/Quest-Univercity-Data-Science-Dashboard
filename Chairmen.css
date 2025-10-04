@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui;
+  background-color: #111;
+}
+
+/* NAVBAR */
+.mainnav {
+  height: 100px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightnav {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.rightnav > svg {
+  color: rgb(249 115 22);
+}
+
+.rightnav > h1 {
+  padding-left: 15px;
+  color: rgb(213, 204, 188);
+  font-size: 1.2rem;
+}
+
+.leftnav {
+  height: 100px;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.btnposition {
+  position: relative; /* for absolute submenu */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.btn1,
+.btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid wheat;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+.btn1 {
+  background-color: rgb(249 115 22);
+}
+
+.btn:hover {
+  background-color: rgba(143, 74, 25, 0.8);
+}
+
+/* Sub-buttons for "About" */
+#about-sub-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%; /* below the About button */
+  right: 0;
+  background-color: black;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+#about-sub-buttons > .btn {
+  margin: 5px 0;
+  width: 100px;
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.sub-buttons {
+  margin-top: 10px;
+}
+
+/* MAIN BODY */
+.mainbody {
+  height: 1500px;
+  width: 100%;
+  background-color: #111;
+}
+
+.drmehwish{
+    height: 310px;
+    width: 96%;
+    margin: 31px;
+    background-color: #222;
+    border-radius: 60px;
+    display: flex;
+
+}
+
+.introduction{
+
+    height: 308px;
+    width: 33%;
+   
+}
+.introduction>h1{
+    color: wheat;
+    padding-left: 15px;
+}
+.introduction>h4{
+    color: whitesmoke;
+    padding-left: 50px;
+    font-size: 22px;
+}
+.img>img{
+   
+    margin-left:33px;
+    margin-top: 5px;
+    margin-right: 2px;
+    border-radius: 180px;
+    height: 295px;
+    box-shadow: 0 0 20px rgb(255 151 0 / 51%);
+
+
+}
+
+.badge{
+   height: 308px;
+    width: 43%;
+    display: flex;
+    gap: 20px;
+   
+
+}
+.badges>h1{
+    color: wheat;
+ 
+    margin-bottom: -43px;
+}
+.badges>img{
+    height: 117px;
+    width: 111px;
+    margin-top: 130px;
+    box-shadow: 0 0 20px rgb(44 114 142);
+
+}
+/* ---- main body end----*/
+/*--- Second body start---*/
+.details{
+  height: 350px;
+  width: 68%;
+  margin: 1px;
+  margin-left: 210px;
+  font-size: larger;
+}
+.details>h2{
+  padding-left: 30px;
+  color: wheat;
+}
+.details>h4{
+  padding-left: 90px;
+  padding-top: 20px;
+  color: white;
+  
+}
+/*--- Second body start---*/
+/*--- Certification start---*/
+
+.certifications{
+  height: 750px;
+  width: 71%;
+  margin: 1px;
+  margin-left: 195px;
+  font-size: larger;
+  box-shadow: 0 0 20px #333;
+  border-radius: 45px;
+
+}
+.certifications>h1{
+  padding-left: 30px;
+  color: wheat;
+  background: #333;
+}
+  /*--- Certification first2---*/
+.first2{
+  height: 320px;
+  width: 100%;
+  display:flex ;
+}
+.first2>.img1{
+ 
+  height: 320px;
+  width: 50%;
+}
+.first2>.img2{
+  
+  height: 385px;
+  width: 50%;
+}
+
+
+.first2>.img1>img{
+  height: 320px;
+  width: 95%;
+  margin-left: 11px;
+  margin-top: 10px;
+  
+}
+.first2>.img2>img{
+  height: 320px;
+  width: 95%;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+
+/*--- Certification last2---*/
+.last2{
+  height: 320px;
+  width: 100%;
+  display:flex ;
+  margin-top: 20px;
+}
+.last2>.img1{
+ 
+  height: 320px;
+  width: 50%;
+}
+.last2>.img2{
+  
+  height: 385px;
+  width: 50%;
+}
+
+
+.last2>.img1>img{
+  height: 320px;
+  width: 95%;
+  margin-left: 11px;
+  margin-top: 10px;
+  
+}
+.last2>.img2>img{
+  height: 320px;
+  width: 95%;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+
+
+
+/*--- Certification start End ---*/
+
+/* ---------- UPDATED MEDIA QUERIES ---------- */
+
+
+/* Large Screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .mainnav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+  .rightnav, .leftnav {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .rightnav > h1 {
+    font-size: 1rem;
+  }
+  .btnposition {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn, .btn1 {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .drmehwish {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .img > img {
+    height: 200px;
+    margin: 10px;
+  }
+  .introduction, .badge {
+    width: 90%;
+    text-align: center;
+  }
+  .introduction > h4 {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .details, .certifications {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .details > h4 {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+  .first2, .last2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .first2 > .img1, .first2 > .img2, .last2 > .img1, .last2 > .img2 {
+    width: 100%;
+    height: auto;
+  }
+  .first2 img, .last2 img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .rightnav > h1 {
+    font-size: 0.9rem;
+  }
+  .btn, .btn1 {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  .introduction > h4 {
+    font-size: 16px;
+  }
+  .details > h4 {
+    font-size: 15px;
+  }
+  .certifications > h1 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Phones (max-width: 600px) */
+@media (max-width: 600px) {
+  .mainnav {
+    flex-direction: column;
+    padding-top: 20px;
+
+  }
+  .rightnav, .leftnav {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .rightnav > h1 {
+    font-size: 0.8rem;
+    padding-left: 0;
+  }
+  .btnposition {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn, .btn1 {
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 80%;
+  }
+  .drmehwish {
+    flex-direction: column;
+    height: auto;
+  }
+  .introduction, .badge {
+    width: 100%;
+    text-align: center;
+  }
+  .img > img {
+    height: 150px;
+  }
+  .introduction > h4 {
+    font-size: 14px;
+  }
+  .details, .certifications {
+    width: 95%;
+    margin: auto;
+  }
+  .details > h4 {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .certifications > h1 {
+    font-size: 1rem;
+  }
+  .first2, .last2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .first2 img, .last2 img {
+    width: 90%;
+    height: auto;
+  }
+}

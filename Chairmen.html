@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Data Science SM Dashbord </title>
+    <link rel="shortcut icon" href="dashboard.png" type="image/x-icon">
+    <link rel="stylesheet" href="DASHBORD.css">
+    <link rel="stylesheet" href="Chairmen.css">
+</head>
+
+<body>
+
+    <!----NAVBAR-->
+
+    <div class="mainnav">
+        <div class="rightnav">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="95" viewBox="0 0 23 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-graduation-cap mr-2 h-8 w-9 text-datasci-orange"
+                data-lov-id="src/pages/Index.tsx:27:10" data-lov-name="GraduationCap"
+                data-component-path="src/pages/Index.tsx" data-component-line="27" data-component-file="Index.tsx"
+                data-component-name="GraduationCap"
+                data-component-content="%7B%22className%22%3A%22mr-2%20h-8%20w-8%20text-datasci-orange%22%7D">
+                <path
+                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                </path>
+                <path d="M22 10v6"></path>
+                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+            </svg>
+            <h1>Data Science Students Management Dashbord</h1>
+        </div>
+        <div class="leftnav">
+            <div class="btnposition">
+                <a href="index.html" class="btn">Dashboard</a>
+                <a href="Chairmen.html" class="btn1">Chairman</a>
+                <a href="DataScience" class="btn">Data Science</a>
+                <a href="Batches.html" class="btn">Batches</a>
+                <a href="Notices.html" class="btn">Notices</a>
+                <!-- Main Button -->
+                <div class="btn" onclick="toggleSubButtons()">About</div>
+                <!-- Hidden Sub Buttons -->
+                <div id="about-sub-buttons" class="hidden sub-buttons">
+                    <a href="" class="btn">Faculty</a>
+                    <a href="" class="btn">Lab</a>
+                    <a href="" class="btn">Courses</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!----NAVBAR END-->
+    <!----MAin BODY-->
+    <div class="mainbody">
+        <div class="drmehwish">
+            <div class="img"> <img src="maam.jpg" alt=""></div>
+
+            <div class="introduction">
+                <h1>Introduction:</h1>
+                <h4>Dr. Mehwish Leghari is a passionate teacher. She’s teaching as an Assistant Professor at the Data
+                    Science, Quaid e Awam University of Engineering Science and Technology, Nawabshah, Pakistan. She’s
+                    also heading the Data Science Programme as the Coordinator at the QUEST Nawabshah.</h4>
+
+            </div>
+            <div class="badge">
+
+                <div class="badges">
+                    <h1>BADGES:</h1>
+                    <img src="badge 2.png" alt="">
+                </div>
+                <div class="badges"><img src="bages 1.png" alt=""></div>
+                <div class="badges"><img src="badge 3.png" alt=""></div>
+                <div class="badges"><img src="badge 4.png" alt=""></div>
+
+
+            </div>
+
+        </div>
+        <!----MAIN SECOND BODY -->
+        <div class="details">
+            <h2>About DR. Mahwish Leghari</h2>
+            <h4>Dr. Mahwish Leghari received her PhD degree in IT, in 2021 from the University of Sindh, Jamshoro. She
+                received her MS(IT) in 2015 from QUEST Nawabshah and BS(IT) in 2007 from University of Sindh
+                Jamshoro. She started her career as a Software Engineer at Isra University Hyderabad. Later she
+                joined QUEST in 2011 as a faculty member. She has authored more than 15 research papers in
+                national and international journals and conferences. She is currently supervising/co-supervising
+                several PhD students. She’s also Nvidia Certified Instructor and the university ambassador for QUEST
+                from Nvidia. Her research interests include Artificial Intelligence in general and Data Science,
+                Machine Learning and Deep Learning in particular. </h4>
+        </div>
+
+
+        <!----MAIN SECOND BODY END -->
+
+        <div class="certifications">
+            <h1>Certifications:</h1>
+            <div class="first2">
+
+                <div class="img1"><img src="CERTIFICATE_LANDING_PAGE~FYOP6ZHCPAIL.jpeg" alt=""></div>
+                <div class="img2"><img src="CERTIFICATE_LANDING_PAGE~DWZGX1NLPFRW.jpeg" alt="certificate"></div>
+            </div>
+            <div class="last2">
+                <div class="img1"><img src="certification (2).png" alt=""></div>
+                <div class="img2"><img src="certification.jpeg" alt="certificate"></div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <!----MAIN BODY END-->
+    <!----SCRIPT-->
+    <script>
+        function toggleSubButtons() {
+            const subButtons = document.getElementById("about-sub-buttons");
+            subButtons.classList.toggle("hidden");
+        }
+    </script>
+
+
+    <!----SCRIPT END-->
+</body>
+
+</html>
